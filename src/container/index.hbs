@@ -1,15 +1,83 @@
-{{!-- 
-Це код container файлу для index сторінки, 
+{{!--
+Це код container файлу для index сторінки,
 в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
- --}}
+--}}
 
-<div class="p-5">
+{{!-- <div class="p-5 box">
     <h1>USB хаб Type C 12 в 1 HDMI VGA AUX 3.5 mm</h1>
 
-    <button type="button" class="btn btn-primary">Купити</button>
+    <h2 id="user">USB хаб Type C 12 в 1 HDMI VGA AUX 3.5 mm</h2>
+
+
+    <button type="button" class="button" id="button">Купити </button>
+    <p class="user">Link</p>
+
 </div>
 
-{{!-- 
-    Цей код містить лише те, що буде виводитись в <body>
+<section class="p-5 box">
+    <h1>USB хаб Type C 12 в 1 HDMI VGA AUX 3.5 mm</h1>
+
+    <p class="user">Link</p>
+
+    <a href="#" class="btn btn-primary">Link</a>
+
+
+</section>
+
+<footer class="p-5 box">
+    <h1>USB хаб Type C 12 в 1 HDMI VGA AUX 3.5 mm</h1>
+
+    <p class="user">Link</p>
+    <div>
+        <div>
+            <em class="child">Test EM</em>
+        </div>
+    </div>
+
+</footer> --}}
+
+{{!--
+Цей код містить лише те, що буде виводитись в
+
+<body>
     Адже наш layout/default.hbs має вже структуру HTML
---}}
+    --}}
+    {{!==================== selectors-4 ======================================}}
+    <div lang="fr" class="card p-5 m-5 card-dark">
+        <a class="link" href="https://bilet.privatbank.ua/">Clic me</a>
+    </div>
+
+    <div lang="en" id="test" class="card p-5 m-5 card-dark">
+        <input>
+        <span>Hello world!</span>
+        <button>Test button</button>
+    </div>
+    <div class=" p-5 m-5 card-dark">
+
+        <button>Test button</button>
+        <button disabled>Disabled button</button>
+
+    </div>
+
+    <div class=" p-5 m-5 card-dark">
+
+        <input class="inp" readonly>
+        <div class="mt-5">
+            <div><input type="checkbox" checked>
+                <span>First checkbox</span>
+            </div>
+            <div><input type="checkbox">
+                <span>Second checkbox</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class=" p-5 m-5 card-dark">
+        <div class="mt-5">
+            <input type="email" required class="valid">
+        </div>
+        <div class="mt-5">
+            <input type="number" min="10" max="20" required class="number">
+        </div>
+    </div>
