@@ -1,6 +1,6 @@
-.card {
+/* .card {
   color: initial;
-}
+} */
 .card p {
   color: green;
   -webkit-text-fill-color: red;
@@ -27,7 +27,7 @@ p:hover {
 span {
   text-align: center;
   text-transform: uppercase;
-  text-decoration: underline wavy red;
+  text-decoration: underline dashed red;
 }
 
 span:hover {
@@ -44,4 +44,18 @@ pre {
 span {
   font-size: larger;
   font-weight: bolder;
+}
+.test {
+  background-color: rgb(225, 217, 217);
+}
+.form input {
+  accent-color: yellow;
+}
+.block {
+  display: block;
+  background: gray;
+
+  margin: auto;
+
+  width: 250px;
 }
